@@ -18,7 +18,7 @@ public class Main {
             array[i] = item;
         }
 
-        System.out.println("items:");
+        System.out.println("Items:");
         for(int i=0;i<n;i++){
             Item item = array[i];
             StringBuilder sb = new StringBuilder(item.toString());
